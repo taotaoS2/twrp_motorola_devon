@@ -58,7 +58,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  export FOX_VARIANT="A12.1"
 
  # MIUI & Custom ROMs
- export OF_VIRTUAL_AB_DEVICE=1
+ export FOX_VIRTUAL_AB_DEVICE=1
  export OF_NO_MIUI_PATCH_WARNING=1
  export OF_PATCH_AVB20=1
 
